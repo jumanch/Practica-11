@@ -32,6 +32,10 @@
                   tr {
             color: black
             }
+            td.fondo{
+                background:gainsboro;
+}
+
 
 
               </style>
@@ -40,7 +44,7 @@
             <body>
               
                 <div aling="middle">
-                                                                                                                   <img src="img/img1.png" class="#img">
+                                                                      <img src="img/logo.png" class="#img">                         <img src="img/img1.png" class="#img">
                 </div>
                 
                   <table border="1">
@@ -2054,7 +2058,7 @@
                      </tr>
 
                      <tr>
-<td>Tipo de vía <select id="vía" name="via" size="1" style= "margin-right.5px"; 
+<td class="fondo">Tipo de vía <select id="vía" name="via" size="1" style= "margin-right.5px"; 
 
     <option value=""></option>
                                           
@@ -2148,20 +2152,20 @@
       
     <option value="VI">VIA</option>
   </select></td>
-<td> Dirección  <input type="text" name="dirección" size="25">
+<td class="fondo"> Dirección  <input type="text" name="dirección" size="25">
 </td>
-<td>  <p>Número: <input type="number" name="numero" required >
+<td class="fondo">  <p>Número: <input type="number" name="numero" required >
 </td>
-<td>  Piso: <input type="text" name="piso" >
+<td class="fondo">  Piso: <input type="text" name="piso" >
 </td>
 
                      </tr>
 <tr>
 
-        <td> Urb./Pol./Otros  <input type="text" name="urb" size="25"> </td>
-        <td> Localidad  <input type="text" name="loc" size="25" required>
+        <td class="fondo"> Urb./Pol./Otros  <input type="text" name="urb" size="25"> </td>
+        <td class="fondo"> Localidad  <input type="text" name="loc" size="25" required>
         </td>
-       <td>Provincia<select name="menu" required>
+       <td class="fondo">Provincia<select name="menu" required>
             <option value="15">A CORU&Ntilde;A</option>
                                           
                                         <option value="02">ALBACETE</option>
@@ -2268,17 +2272,17 @@
                                       </select>
           
         </td>
-        <td> Código postal  <input type="text" name="código postal" size="25" required>
+        <td class="fondo"> Código postal  <input type="text" name="código postal" size="25" required>
         </td>
 
                      </tr>
                      <tr>
 
-                        <td>  <p>Teléfono móvil*: <input type="number" name="telf" maxlength="9" required></p>
+                        <td class="fondo">  <p>Teléfono móvil*: <input type="number" name="telf" maxlength="9" required></p>
                         </td>
-                        <td>Teléfono particular: <input type="number" name="particular" maxlength="9"></p>
+                        <td class="fondo">Teléfono particular: <input type="number" name="particular" maxlength="9"></p>
                         </td>
-                        <td>Correo electrónico * <input type="text" name="correol" size="25" required></td>
+                        <td class="fondo">Correo electrónico * <input type="text" name="correol" size="25" required></td>
                      </tr>
                     </tbody>
                     
@@ -2301,10 +2305,9 @@
                         <input type="checkbox" name="otherLifeInsurance" id="otherLifeInsurance" value="true">Seguro de Vida</label>
                     
                         <hr>
-                        <p>Puede consultar en nuestra Web o solicitarnos toda la Información Precontractual de nuestros productos. Al pulsar "Continuar" está aceptando la Cláusula de Protección de datos.</p>
-
-                        <p>(*) Los campos con asterisco son obligatorios</p>
-                        <input type="submit" value="Enviar">
+                        <h6>Puede consultar en nuestra Web o solicitarnos toda la Información Precontractual de nuestros productos. Al pulsar "Continuar" está aceptando la Cláusula de Protección de datos. (*) Los campos con asterisco son obligatorios <img src="/img/continuarNuevo.gif"></h6>
+                        
+                        <!-- <input src="/img/continuarNuevo.gif" type="submit" value="Enviar"> -->
 
 
 
